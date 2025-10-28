@@ -71,7 +71,10 @@
     "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
   },
   "languages": [
-    "en"
+       {
+      "lang": "en",
+      "path": "lang/en.json"
+    }
   ],
   "minimumCoreVersion": "0.9",
   "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
