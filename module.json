@@ -34,9 +34,7 @@
   "systems": [
     "wfrp4e"
   ],
-  "styles": [
-    "./styles.css"
-  ],
+  "styles": [],
   "packs": [
     {
       "label": "Night of Blood Actors",
