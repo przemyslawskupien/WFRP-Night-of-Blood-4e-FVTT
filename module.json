@@ -77,7 +77,7 @@
     }
   ],
   "minimumCoreVersion": "0.9",
-  "manifest": "https://raw.githubusercontent.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
-  "download": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
-  "url": "https://github.com/CStuartEKerrigan/WFRP-Night-of-Blood-4e-FVTT/"
+  "manifest": "https://raw.githubusercontent.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
+  "download": "https://github.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
+  "url": "https://github.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/"
 }
