@@ -1,0 +1,14 @@
+{
+  "name": "wfrp4e-night-of-blood",
+  "version": "4.0.0-dev.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node tools/build-packs.mjs",
+    "check": "node tools/check-content.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "3.0.5"
+  }
+}
