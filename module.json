@@ -1,80 +1,54 @@
 {
   "id": "wfrp4e-night-of-blood",
   "title": "Night of Blood (WFRP 4e)",
-  "description": "The classic Warhammer Fantasy Roleplay adventure, perfect for introducing new players. Now updated to include multi-level scenes",
-  "version": "3.0",
-  "author": "Stuart Kerrigan",
-  "dependencies": [
+  "description": "Night of Blood: maps, actors, journals and soundscapes, migrated for Foundry V14.",
+  "version": "4.0.0-dev.1",
+  "authors": [
     {
-      "name": "lib-wrapper"
+      "name": "Stuart Kerrigan",
+      "url": "https://github.com/CStuartEKerrigan"
     },
     {
-      "name": "betterroofs"
-    },
-    {
-      "name": "wall-height"
-    },
-    {
-      "name": "levels"
-    },
-    {
-      "name": "token-attacher"
-    },
-    {
-      "name": "ambientdoors"
-    },
-    {
-      "name": "tokenmagic"
+      "name": "Przemysław Skupień",
+      "url": "https://github.com/przemyslawskupien"
     }
   ],
-  "esmodules": [],
-  "scripts": [
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14.370",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "wfrp4e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "10.1.2",
+          "verified": "10.1.2"
+        }
+      }
+    ]
+  },
+  "esmodules": [
     "init.js"
   ],
-  "systems": [
-    "wfrp4e"
-  ],
-  "styles": [],
   "packs": [
     {
-      "label": "Night of Blood Actors",
-      "type": "Actor",
-      "name": "NightOfBloodActors",
-      "path": "./packs/night-of-blood-actors.db",
-      "package": "wfrp4e-night-of-blood",
-      "system": "wfrp4e"
-    },
-    {
-      "label": "Night of Blood Scenes",
-      "type": "Scene",
-      "name": "NightOfBloodScenes",
-      "path": "./packs/night-of-blood-scenes.db",
-      "package": "wfrp4e-night-of-blood",
-      "system": "wfrp4e"
-    },
-    {
-      "label": "Night of Blood Journal Entries",
-      "name": "NightOfBloodJournal",
-      "path": "./packs/night-of-blood-journal.db",
-      "type": "JournalEntry",
-      "package": "wfrp4e-night-of-blood",
-      "system": "wfrp4e"
-    },
-    {
-      "name": "NightOfBloodSFX",
-      "label": "Night of Blood SFX",
-      "path": "./packs/night-of-blood-sfx.db",
-      "type": "Playlist",
-      "package": "wfrp4e-night-of-blood",
-      "system": "wfrp4e"
+      "name": "adventure",
+      "label": "Night of Blood",
+      "path": "packs/night-of-blood",
+      "type": "Adventure",
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
-  "flags": {
-    "initializationPacks": ["wfrp4e-night-of-blood.NightOfBloodActors", "wfrp4e-night-of-blood.NightOfBloodScenes", "wfrp4e-night-of-blood.NightOfBloodJournal"]
-  },
-  "languages": [],
-  "minimumCoreVersion": "0.9",
-  "manifest": "https://raw.githubusercontent.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/master/module.json",
-  "download": "https://github.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/archive/master.zip",
-  "url": "https://github.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/"
+  "url": "https://github.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT",
+  "manifest": "https://raw.githubusercontent.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/codex/foundry-v14-revival/module.json",
+  "download": "https://github.com/przemyslawskupien/WFRP-Night-of-Blood-4e-FVTT/archive/refs/heads/codex/foundry-v14-revival.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
 }

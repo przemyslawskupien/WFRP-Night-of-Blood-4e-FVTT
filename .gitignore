@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+!packs/**/*.log
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+*.tmp
+.env
+.env.*
+*.key
+*.pem
